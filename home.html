@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+ 
+<body>
+  <div style="position:absolute;bottom: 700px;left: 1px;right:1px">
+  <marquee direction="left" 
+        behavior="alternate" 
+        style="border:BLACK 2px SOLID">
+         Dance your way to a healthier body and a happier mind! 
+    </marquee></div>
+<div style="position:absolute;margin-left: 100px ;bottom: 630px;">
+<img src="https://cdn4.vectorstock.com/i/thumb-large/59/93/dance-studio-logo-with-young-ballerina-vector-20455993.jpg" width="70">
+  </div>
+</body>
+<!-- login -->
+    <div style="position:absolute;left: 1300px ;bottom: 630px;right: 100px">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px 25px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px 24px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://cdn.dribbble.com/users/677572/screenshots/17289425/media/786334abd83d57e81c7784bb59e58c40.png?compress=1&resize=400x300" width="50" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b> email id</b></label>
+      <input type="text" placeholder="Enter Username" name="name" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit"><a href="dance.php">Login</a></button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+    
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script> 
+</body>
+</div>
+   
+<!-- jj -->
+  <div style="position:absolute;left: 400px ;bottom: 635px;right: 300px">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #db7093;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #8b008b;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="home.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contactusyoga.html">Contact Us</a>
+</div>
+</body>
+</div>
+    <! gif -->
+       
+      <div style="position:absolute;top: 110px;right: 0px;left:1px">
+        
+
+      <img src="https://s3.envato.com/files/209868149/PreviewSet/Test-2_Static.jpg "width=1510
+      height="800"> 
+      <div style="position:absolute;top:60px;left:990px;right: 130px;">
+        <p><font size="7">Great dancers are great because of their passion.</font></p>
+</div>
+    </div>
+</div>
+<div style="position:absolute;left:180px;right: 200px;margin-top: 1000px;">
+  <h1 align="center">DANCE AND DANCE STUDIO, CHENNAI</h1>
+  <h4   align="center"><font color="purple">
+WE ARE OPEN FOR STUDIO CLASSES ( Enroll Now )</font></h4>
+<p>
+The Dance & Dance Company is Chennai's very own high specialized and stylized dance company which teaches all western dances in highly international standards in certified and open classes.At Chennai Dance and Dance Academy near greams road, the teaching is at a new level and is also very stimulating as it works on combining energy, elegance and a lot of movement. Our dance company was started in Chennai based on the young passion and dynamic of Mr. Vijay who has learnt and specialized in dancing in the United States and performed in various stage shows in an around Orange County. He believes in order to have an active and fulfilling life, one must always have passion and the courage to do what they want and enjoy it. He wants to create that drive and determination in youngsters today, to give them the drive and determination to do what they want in life.</P>
+      <!--<img src="https://camo.envatousercontent.com/ab26a92d72838ed2e096c0d5d22bbfb1d5f39b08/68747470733a2f2f706173756c756b68612e66696c65732e776f726470726573732e636f6d2f323031372f30372f3037662e676966" width="1400" height="1000" align="justify-content-md-center"> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--  our class 
+
+<div style="position:absolute;left:1px;top:5px;"><img src="http://www.kovifabrics.com/img/products/Locker_Room_Apricot.JPG" alt="Simply Easy Learning" width="1515" height="1370"></div> -->
+<div style="position:absolute;left:500px;top:400px;">
+<font size="8" color="purple"><h1>OUR CLASSES</h1></font><br>
+</div>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 380px;
+}
+ 
+div.gallery:hover {
+  border: 5px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+</style>
+<div class="gallery" style="position:absolute;right: 800px;top:500px;">
+  
+<img src="https://images.unsplash.com/photo-1495791185843-c73f2269f669?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"  width="600" height="200">
+  <div class="desc"><font size="4" face="Britannic Bold"><h2>BALLET</h2></font> <br><font>Mon,Wed,Fri  <br>05.30pm-06.30pm</font><br><br>
+  <font size="3">Fees:₹1,500</font><br><font size="3">Duration:3 months</div>
+</div>
+</style>
+<div class="gallery" style="position:absolute;right:360px;top:490px;">
+  
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Bharata_Natyam_Performance_DS.jpg"  width="600" height="330">
+  <div class="desc"><font size="4"><h2>BHARATA NATYAM</h2></font> <br><font>Mon,Wed,Sat  <br>06.30am-07.30am</font><br><br>
+  <font size="3">Fees:₹1,000</font><br><font size="3">Duration:3 months</div>
+    </font>
+  </div>
+</div>
+</font>
+</div>
+
+
+
+</div>
+</style>
+<div class="gallery" style="position:absolute;left:1000px;top:1510px;">
+  
+    <img src="https://images.unsplash.com/photo-1533557252203-6ec9555fe200?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGhpcCUyMGhvcCUyMGRhbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
+"  width="600" height="440">
+  <div class="desc"><font size="4"><h2>HIP POP</h2></font> <br><font>Tue,Thur,Sat  <br>06.15pm-07.15pm</font><br><br>
+  <font size="3">Fees:₹1,250</font><br><font size="3">Duration:3 months</div>
+
+</div>
+</style>
+<div style="position:absolute;left:40px;right: 10px;bottom:1px ;top:2330px;">
+<p><h2>
+  <font color="purple">
+INTERSTRESTED POEPLE CAN LOGIN FOR REGISTERATION</font></h2>
+<p>
+@pls click login button to join in our  dance studio.
+after submiting login form you will receiving email for registeration!!</p>
+
+  </div>
+<div style="position:absolute;left:1px;right: 10px;bottom:1px ;top:2590px;">
+
+
+<footer> 255 ABC Road
+(Near ABCD Bank) 
+Rocking , Chennai-6000XX.</footer>
+
+<style>footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:black;
+    color: #fff;
+}</style>
+
+</div>
+</body>
+</html>
+  </body>
+</html>
